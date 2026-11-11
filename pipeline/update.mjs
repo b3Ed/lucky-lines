@@ -34,7 +34,8 @@ for (const id of GAME_IDS) {
     const valid = feed && feed.draw.sets.length && feed.draw.sets.every((s) => s.m.length === g.main.drawn);
     if (valid) {
       draws = mergeDraws(draws, [feed.draw]);
-      meta[id] = { next: feed.next, feedDate: feed.draw.date, fetchedAt: now.toISOString() };
+      // No fetch timestamp here: it would change every run and force a commit with no new draw.
+      meta[id] = { next: feed.next, feedDate: feed.draw.date };
     } else {
       problems++;
       console.warn(`${id}: official feed returned nothing usable`);
