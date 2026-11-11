@@ -8,7 +8,7 @@
    "mustBeWon": false
   },
   "feedDate": "2026-11-07",
-  "fetchedAt": "2026-11-11T14:39:45.055Z"
+  "fetchedAt": "2026-11-11T15:08:21.179Z"
  },
  "euromillions": {
   "next": {
@@ -19,7 +19,7 @@
    "mustBeWon": false
   },
   "feedDate": "2026-11-10",
-  "fetchedAt": "2026-11-11T14:39:45.055Z"
+  "fetchedAt": "2026-11-11T15:08:21.179Z"
  },
  "thunderball": {
   "next": {
@@ -30,7 +30,7 @@
    "mustBeWon": false
   },
   "feedDate": "2026-11-10",
-  "fetchedAt": "2026-11-11T14:39:45.055Z"
+  "fetchedAt": "2026-11-11T15:08:21.179Z"
  },
  "setforlife": {
   "next": {
@@ -41,6 +41,6 @@
    "mustBeWon": false
   },
   "feedDate": "2026-11-09",
-  "fetchedAt": "2026-11-11T14:39:45.055Z"
+  "fetchedAt": "2026-11-11T15:08:21.179Z"
  }
 }
