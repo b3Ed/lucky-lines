@@ -1,0 +1,46 @@
+{
+ "lotto": {
+  "next": {
+   "date": "2026-11-11",
+   "jackpot": 5161856,
+   "jackpotText": null,
+   "rollovers": 3,
+   "mustBeWon": false
+  },
+  "feedDate": "2026-11-07",
+  "fetchedAt": "2026-11-11T14:39:45.055Z"
+ },
+ "euromillions": {
+  "next": {
+   "date": "2026-11-13",
+   "jackpot": 14000000,
+   "jackpotText": null,
+   "rollovers": 0,
+   "mustBeWon": false
+  },
+  "feedDate": "2026-11-10",
+  "fetchedAt": "2026-11-11T14:39:45.055Z"
+ },
+ "thunderball": {
+  "next": {
+   "date": "2026-11-11",
+   "jackpot": 500000,
+   "jackpotText": null,
+   "rollovers": 0,
+   "mustBeWon": false
+  },
+  "feedDate": "2026-11-10",
+  "fetchedAt": "2026-11-11T14:39:45.055Z"
+ },
+ "setforlife": {
+  "next": {
+   "date": "2026-11-12",
+   "jackpot": null,
+   "jackpotText": "£10,000 every month for 30 years",
+   "rollovers": 0,
+   "mustBeWon": false
+  },
+  "feedDate": "2026-11-09",
+  "fetchedAt": "2026-11-11T14:39:45.055Z"
+ }
+}

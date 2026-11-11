@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+# Android build output and the assets CI copies in
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/app/src/main/assets/
+# Signing keys never go in the repo
+signing/
+*.jks
+*.keystore

@@ -1,0 +1,16 @@
+{
+  "name": "lucky-lines",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal UK lottery companion: results, analysis, shared picks and a stake ledger.",
+  "scripts": {
+    "backfill": "node pipeline/backfill.mjs",
+    "update": "node pipeline/update.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

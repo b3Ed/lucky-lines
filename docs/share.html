@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Shared lines</title>
+  <style>
+    :root { --bg: #f4f5f9; --card: #fff; --text: #171a26; --muted: #5f6678; --line: #e2e5ee; --accent: #5a4ee8; --gold: #f2b705; color-scheme: light; }
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #10121a; --card: #1a1d29; --text: #eef0f7; --muted: #a2a8bb; --line: #2c3144; --accent: #8379ff; color-scheme: dark; } }
+    :root[data-theme="dark"] { --bg: #10121a; --card: #1a1d29; --text: #eef0f7; --muted: #a2a8bb; --line: #2c3144; --accent: #8379ff; color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding: 24px 16px; }
+    main { max-width: 480px; margin: 0 auto; display: flex; flex-direction: column; gap: 14px; }
+    h1 { font-size: 22px; margin: 0; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px; display: flex; flex-direction: column; gap: 12px; border-left: 5px solid var(--c); }
+    .balls { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .ball { width: 36px; height: 36px; border-radius: 50%; display: inline-grid; place-items: center; font-weight: 800; border: 2px solid var(--c); }
+    .ball.x { background: var(--gold); border-color: var(--gold); color: #2a1f00; }
+    .muted { color: var(--muted); font-size: 13px; }
+    a.btn { display: block; text-align: center; padding: 13px; border-radius: 12px; font-weight: 700; text-decoration: none; background: var(--accent); color: #fff; }
+    a.btn.ghost { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  </style>
+</head>
+<body>
+  <main id="m"><h1>Shared lines</h1><p class="muted">Loading...</p></main>
+  <script>
+    (function () {
+      var GAMES = {
+        lotto: { name: 'Lotto', c: '#e0355d', n: 6, pool: 59, x: 0, xpool: 0 },
+        euromillions: { name: 'EuroMillions', c: '#2f6fe4', n: 5, pool: 50, x: 2, xpool: 12 },
+        thunderball: { name: 'Thunderball', c: '#7b4ae2', n: 5, pool: 39, x: 1, xpool: 14 },
+        setforlife: { name: 'Set For Life', c: '#109c8a', n: 5, pool: 47, x: 1, xpool: 10 }
+      };
+      var m = document.getElementById('m');
+      function fail() { m.innerHTML = '<h1>That link is not valid</h1><p class="muted">Ask for it to be sent again.</p>'; }
+      function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+      function ok(a, n, max) {
+        if (!Array.isArray(a) || a.length !== n) return false;
+        var seen = {};
+        for (var i = 0; i < a.length; i++) { var k = a[i]; if (k !== Math.floor(k) || k < 1 || k > max || seen[k]) return false; seen[k] = 1; }
+        return true;
+      }
+      var raw = (location.search.match(/[?&]p=([A-Za-z0-9_-]+)/) || [])[1];
+      if (!raw) return fail();
+      var p;
+      try {
+        var b = raw.replace(/-/g, '+').replace(/_/g, '/');
+        while (b.length % 4) b += '=';
+        p = JSON.parse(decodeURIComponent(escape(atob(b))));
+      } catch (e) { return fail(); }
+      var g = GAMES[p && p.g];
+      if (!g || !/^\d{4}-\d{2}-\d{2}$/.test(p.d) || !Array.isArray(p.l) || !p.l.length || p.l.length > 10) return fail();
+      for (var i = 0; i < p.l.length; i++) if (!ok(p.l[i].m, g.n, g.pool) || (g.x && !ok(p.l[i].x, g.x, g.xpool))) return fail();
+      var from = String(p.f || 'A friend').replace(/[^\p{L}\p{N} .'-]/gu, '').slice(0, 24) || 'A friend';
+      var date = new Date(p.d + 'T12:00:00').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
+      var lines = p.l.map(function (l) {
+        var h = l.m.map(function (n) { return '<span class="ball">' + n + '</span>'; }).join('');
+        if (g.x) h += '<span class="muted">+</span>' + l.x.map(function (n) { return '<span class="ball x">' + n + '</span>'; }).join('');
+        return '<div class="balls">' + h + '</div>';
+      }).join('');
+      var intent = 'intent://import' + location.search + '#Intent;scheme=luckylines;package=app.luckylines;end';
+      m.innerHTML = '<h1>' + esc(from) + ' sent you ' + p.l.length + ' ' + g.name + ' line' + (p.l.length > 1 ? 's' : '') + '</h1>' +
+        '<p class="muted">For the draw on ' + esc(date) + '.</p>' +
+        '<div class="card" style="--c:' + g.c + '">' + lines + '</div>' +
+        '<a class="btn" href="' + intent + '">Open in Lucky Lines</a>' +
+        '<a class="btn ghost" href="https://github.com/b3Ed/lucky-lines/releases/latest/download/LuckyLines.apk">Get the app (Android)</a>' +
+        '<p class="muted">Every combination has the same odds. Play for fun and set a limit.</p>';
+    })();
+  </script>
+</body>
+</html>

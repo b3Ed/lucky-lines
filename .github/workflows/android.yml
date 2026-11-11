@@ -1,0 +1,78 @@
+name: Build Android app
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - 'android/**'
+      - 'tests/**'
+      - '.github/workflows/android.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Engine tests
+        run: node --test tests/*.test.mjs
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: 8.11.1
+
+      - name: Bundle the web app and a data snapshot
+        run: |
+          A=android/app/src/main/assets/web
+          rm -rf "$A" && mkdir -p "$A/data/games"
+          cp -r web/* "$A/"
+          cp docs/data/summary.json docs/data/picks.json docs/data/rules.json "$A/data/"
+          cp docs/data/games/*.json "$A/data/games/"
+
+      - name: Signing key
+        env:
+          KEYSTORE_B64: ${{ secrets.KEYSTORE_B64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+        run: |
+          if [ -n "$KEYSTORE_B64" ]; then
+            echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/release.jks"
+            echo "KEYSTORE_PASSWORD=$KEYSTORE_PASSWORD" >> "$GITHUB_ENV"
+            echo "KEY_PASSWORD=$KEYSTORE_PASSWORD" >> "$GITHUB_ENV"
+          else
+            echo "::warning::No KEYSTORE_B64 secret, using a throwaway key. Installs will need uninstall first."
+            keytool -genkeypair -keystore "$RUNNER_TEMP/release.jks" -storepass throwaway -keypass throwaway -alias luckylines -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Lucky Lines"
+            echo "KEYSTORE_PASSWORD=throwaway" >> "$GITHUB_ENV"
+            echo "KEY_PASSWORD=throwaway" >> "$GITHUB_ENV"
+          fi
+          echo "KEYSTORE_FILE=$RUNNER_TEMP/release.jks" >> "$GITHUB_ENV"
+          echo "KEY_ALIAS=luckylines" >> "$GITHUB_ENV"
+
+      - name: Unit tests and release build
+        env:
+          VERSION_CODE: ${{ github.run_number }}
+          VERSION_NAME: 1.0.${{ github.run_number }}
+        run: gradle -p android testReleaseUnitTest assembleRelease --no-daemon
+
+      - name: Publish to the latest release
+        run: |
+          cp android/app/build/outputs/apk/release/app-release.apk LuckyLines.apk
+          gh release delete latest --yes --cleanup-tag || true
+          gh release create latest LuckyLines.apk --title "Lucky Lines (latest)" --notes "Build ${{ github.run_number }} from ${{ github.sha }}. Install LuckyLines.apk on Android."
+        env:
+          GH_TOKEN: ${{ github.token }}

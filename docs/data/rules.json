@@ -1,0 +1,460 @@
+{
+ "lotto": {
+  "id": "lotto",
+  "name": "Lotto",
+  "price": 2,
+  "rounds": 2,
+  "days": [
+   3,
+   6
+  ],
+  "cutoff": "19:30",
+  "drawTime": "20:00",
+  "hasBonus": true,
+  "tiers": [
+   {
+    "key": "6",
+    "label": "Match 6",
+    "main": 6,
+    "bonus": null,
+    "extra": null,
+    "prize": null,
+    "estimated": false,
+    "jackpot": true,
+    "prizeText": null
+   },
+   {
+    "key": "5B",
+    "label": "Match 5 + Bonus",
+    "main": 5,
+    "bonus": true,
+    "extra": null,
+    "prize": 1000000,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "5",
+    "label": "Match 5",
+    "main": 5,
+    "bonus": false,
+    "extra": null,
+    "prize": 1000,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "4",
+    "label": "Match 4",
+    "main": 4,
+    "bonus": null,
+    "extra": null,
+    "prize": 50,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "3",
+    "label": "Match 3",
+    "main": 3,
+    "bonus": null,
+    "extra": null,
+    "prize": 10,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "2",
+    "label": "Match 2",
+    "main": 2,
+    "bonus": null,
+    "extra": null,
+    "prize": 2,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": "Free Lucky Dip"
+   }
+  ]
+ },
+ "euromillions": {
+  "id": "euromillions",
+  "name": "EuroMillions",
+  "price": 2.5,
+  "rounds": 1,
+  "days": [
+   2,
+   5
+  ],
+  "cutoff": "19:30",
+  "drawTime": "21:00",
+  "hasBonus": false,
+  "tiers": [
+   {
+    "key": "5+2",
+    "label": "5 + 2 Stars",
+    "main": 5,
+    "bonus": null,
+    "extra": 2,
+    "prize": null,
+    "estimated": false,
+    "jackpot": true,
+    "prizeText": null
+   },
+   {
+    "key": "5+1",
+    "label": "5 + 1 Star",
+    "main": 5,
+    "bonus": null,
+    "extra": 1,
+    "prize": 262583,
+    "estimated": true,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "5",
+    "label": "Match 5",
+    "main": 5,
+    "bonus": null,
+    "extra": 0,
+    "prize": 25436,
+    "estimated": true,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "4+2",
+    "label": "4 + 2 Stars",
+    "main": 4,
+    "bonus": null,
+    "extra": 2,
+    "prize": 1348,
+    "estimated": true,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "4+1",
+    "label": "4 + 1 Star",
+    "main": 4,
+    "bonus": null,
+    "extra": 1,
+    "prize": 92.61,
+    "estimated": true,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "3+2",
+    "label": "3 + 2 Stars",
+    "main": 3,
+    "bonus": null,
+    "extra": 2,
+    "prize": 48.68,
+    "estimated": true,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "4",
+    "label": "Match 4",
+    "main": 4,
+    "bonus": null,
+    "extra": 0,
+    "prize": 30.89,
+    "estimated": true,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "2+2",
+    "label": "2 + 2 Stars",
+    "main": 2,
+    "bonus": null,
+    "extra": 2,
+    "prize": 10.64,
+    "estimated": true,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "3+1",
+    "label": "3 + 1 Star",
+    "main": 3,
+    "bonus": null,
+    "extra": 1,
+    "prize": 8.23,
+    "estimated": true,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "3",
+    "label": "Match 3",
+    "main": 3,
+    "bonus": null,
+    "extra": 0,
+    "prize": 6.78,
+    "estimated": true,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "1+2",
+    "label": "1 + 2 Stars",
+    "main": 1,
+    "bonus": null,
+    "extra": 2,
+    "prize": 5.21,
+    "estimated": true,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "2+1",
+    "label": "2 + 1 Star",
+    "main": 2,
+    "bonus": null,
+    "extra": 1,
+    "prize": 4.13,
+    "estimated": true,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "2",
+    "label": "Match 2",
+    "main": 2,
+    "bonus": null,
+    "extra": 0,
+    "prize": 2.72,
+    "estimated": true,
+    "jackpot": false,
+    "prizeText": null
+   }
+  ]
+ },
+ "thunderball": {
+  "id": "thunderball",
+  "name": "Thunderball",
+  "price": 1,
+  "rounds": 1,
+  "days": [
+   2,
+   3,
+   5,
+   6
+  ],
+  "cutoff": "19:30",
+  "drawTime": "20:15",
+  "hasBonus": false,
+  "tiers": [
+   {
+    "key": "5+T",
+    "label": "5 + Thunderball",
+    "main": 5,
+    "bonus": null,
+    "extra": 1,
+    "prize": 500000,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "5",
+    "label": "Match 5",
+    "main": 5,
+    "bonus": null,
+    "extra": 0,
+    "prize": 5000,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "4+T",
+    "label": "4 + Thunderball",
+    "main": 4,
+    "bonus": null,
+    "extra": 1,
+    "prize": 250,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "4",
+    "label": "Match 4",
+    "main": 4,
+    "bonus": null,
+    "extra": 0,
+    "prize": 100,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "3+T",
+    "label": "3 + Thunderball",
+    "main": 3,
+    "bonus": null,
+    "extra": 1,
+    "prize": 20,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "3",
+    "label": "Match 3",
+    "main": 3,
+    "bonus": null,
+    "extra": 0,
+    "prize": 10,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "2+T",
+    "label": "2 + Thunderball",
+    "main": 2,
+    "bonus": null,
+    "extra": 1,
+    "prize": 10,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "1+T",
+    "label": "1 + Thunderball",
+    "main": 1,
+    "bonus": null,
+    "extra": 1,
+    "prize": 5,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "0+T",
+    "label": "Thunderball only",
+    "main": 0,
+    "bonus": null,
+    "extra": 1,
+    "prize": 3,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   }
+  ]
+ },
+ "setforlife": {
+  "id": "setforlife",
+  "name": "Set For Life",
+  "price": 1.5,
+  "rounds": 1,
+  "days": [
+   1,
+   4
+  ],
+  "cutoff": "19:30",
+  "drawTime": "20:00",
+  "hasBonus": false,
+  "tiers": [
+   {
+    "key": "5+L",
+    "label": "5 + Life Ball",
+    "main": 5,
+    "bonus": null,
+    "extra": 1,
+    "prize": 3600000,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": "£10,000 a month for 30 years"
+   },
+   {
+    "key": "5",
+    "label": "Match 5",
+    "main": 5,
+    "bonus": null,
+    "extra": 0,
+    "prize": 120000,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": "£10,000 a month for 1 year"
+   },
+   {
+    "key": "4+L",
+    "label": "4 + Life Ball",
+    "main": 4,
+    "bonus": null,
+    "extra": 1,
+    "prize": 250,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "4",
+    "label": "Match 4",
+    "main": 4,
+    "bonus": null,
+    "extra": 0,
+    "prize": 50,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "3+L",
+    "label": "3 + Life Ball",
+    "main": 3,
+    "bonus": null,
+    "extra": 1,
+    "prize": 30,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "3",
+    "label": "Match 3",
+    "main": 3,
+    "bonus": null,
+    "extra": 0,
+    "prize": 20,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "2+L",
+    "label": "2 + Life Ball",
+    "main": 2,
+    "bonus": null,
+    "extra": 1,
+    "prize": 10,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   },
+   {
+    "key": "2",
+    "label": "Match 2",
+    "main": 2,
+    "bonus": null,
+    "extra": 0,
+    "prize": 5,
+    "estimated": false,
+    "jackpot": false,
+    "prizeText": null
+   }
+  ]
+ }
+}

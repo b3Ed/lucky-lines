@@ -1,0 +1,41 @@
+name: Update results
+
+# Runs after the evening draws and again the next morning (times are UTC).
+on:
+  schedule:
+    - cron: '20 21 * * *'
+    - cron: '40 22 * * *'
+    - cron: '0 7 * * *'
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch results and rebuild picks
+        run: node pipeline/update.mjs
+      - name: Tests
+        run: node --test tests/*.test.mjs
+      - name: Commit data if it changed
+        run: |
+          git config user.name "results-bot"
+          git config user.email "results-bot@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "No new results"
+          else
+            git commit -m "Results update $(date -u +'%Y-%m-%d %H:%M')"
+            git push
+          fi

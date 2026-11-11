@@ -1,0 +1,786 @@
+{
+ "generatedAt": "2026-11-11T14:52:04.756Z",
+ "games": {
+  "lotto": {
+   "next": {
+    "date": "2026-11-11",
+    "jackpot": 5161856,
+    "jackpotText": null,
+    "rollovers": 3,
+    "mustBeWon": false
+   },
+   "latest": {
+    "date": "2026-11-07",
+    "sets": [
+     {
+      "m": [
+       4,
+       19,
+       30,
+       45,
+       49,
+       51
+      ],
+      "x": [
+       40
+      ]
+     },
+     {
+      "m": [
+       5,
+       20,
+       22,
+       31,
+       35,
+       57
+      ],
+      "x": [
+       11
+      ]
+     }
+    ],
+    "jp": 4273856,
+    "rolled": true,
+    "no": 3222,
+    "breakdown": {
+     "confirmed": true,
+     "tiers": [
+      {
+       "level": 1,
+       "winners": 0,
+       "prize": null,
+       "text": null
+      },
+      {
+       "level": 2,
+       "winners": 0,
+       "prize": null,
+       "text": null
+      },
+      {
+       "level": 3,
+       "winners": 37,
+       "prize": 1000,
+       "text": null
+      },
+      {
+       "level": 4,
+       "winners": 3132,
+       "prize": 50,
+       "text": null
+      },
+      {
+       "level": 5,
+       "winners": 77026,
+       "prize": 10,
+       "text": null
+      },
+      {
+       "level": 6,
+       "winners": 764281,
+       "prize": 1,
+       "text": null
+      },
+      {
+       "level": 7,
+       "winners": 0,
+       "prize": null,
+       "text": null
+      },
+      {
+       "level": 8,
+       "winners": 1,
+       "prize": 1000000,
+       "text": null
+      },
+      {
+       "level": 9,
+       "winners": 29,
+       "prize": 1000,
+       "text": null
+      },
+      {
+       "level": 10,
+       "winners": 3192,
+       "prize": 50,
+       "text": null
+      },
+      {
+       "level": 11,
+       "winners": 78904,
+       "prize": 10,
+       "text": null
+      },
+      {
+       "level": 12,
+       "winners": 785879,
+       "prize": 1,
+       "text": null
+      }
+     ],
+     "raffles": []
+    }
+   },
+   "picks": {
+    "drawDate": "2026-11-11",
+    "lines": [
+     {
+      "key": "top",
+      "label": "Top pick",
+      "about": "Balanced line built to fit how winning lines usually look, with numbers other players tend to avoid.",
+      "main": [
+       11,
+       21,
+       27,
+       38,
+       42,
+       54
+      ],
+      "extra": [],
+      "strength": 99,
+      "tags": [
+       "Sum in the middle band",
+       "3 odd, 3 even",
+       "High/low balanced",
+       "Spread across the range"
+      ],
+      "top": true
+     },
+     {
+      "key": "hot",
+      "label": "Hot run",
+      "about": "Leans on the numbers drawn most often in recent draws.",
+      "main": [
+       3,
+       5,
+       21,
+       32,
+       48,
+       52
+      ],
+      "extra": [],
+      "strength": 99,
+      "tags": [
+       "Sum in the middle band",
+       "3 odd, 3 even",
+       "High/low balanced",
+       "Spread across the range"
+      ],
+      "top": false
+     },
+     {
+      "key": "due",
+      "label": "Due a turn",
+      "about": "Leans on numbers that have gone longest without being drawn.",
+      "main": [
+       9,
+       13,
+       17,
+       33,
+       50,
+       56
+      ],
+      "extra": [],
+      "strength": 97,
+      "tags": [
+       "Sum in the middle band",
+       "4 odd, 2 even",
+       "High/low balanced",
+       "Spread across the range"
+      ],
+      "top": false
+     }
+    ],
+    "basedOn": "2026-11-07",
+    "createdAt": "2026-11-11T14:52:04.756Z"
+   },
+   "lastPicksResult": null,
+   "value": {
+    "perLine": 1.1174552073333424,
+    "perPound": 0.5587276036666712,
+    "basePerPound": 0.5268180376487066,
+    "ratio": 1.0605703748496982,
+    "verdict": "normal",
+    "jackpot": 5161856,
+    "baseJackpot": 3459437,
+    "linesEstimate": 7840080,
+    "linesMeasured": true,
+    "fixedPrizes": false
+   },
+   "historyCount": 3222,
+   "eraDraws": 1157
+  },
+  "euromillions": {
+   "next": {
+    "date": "2026-11-13",
+    "jackpot": 14000000,
+    "jackpotText": null,
+    "rollovers": 0,
+    "mustBeWon": false
+   },
+   "latest": {
+    "date": "2026-11-10",
+    "sets": [
+     {
+      "m": [
+       15,
+       18,
+       31,
+       37,
+       41
+      ],
+      "x": [
+       1,
+       5
+      ]
+     }
+    ],
+    "jp": 118812405,
+    "rolled": false,
+    "no": 1997,
+    "breakdown": {
+     "confirmed": true,
+     "tiers": [
+      {
+       "level": 1,
+       "winners": 1,
+       "ukWinners": 0,
+       "prize": null,
+       "text": null
+      },
+      {
+       "level": 2,
+       "winners": 2,
+       "ukWinners": 1,
+       "prize": 269659.9,
+       "text": null
+      },
+      {
+       "level": 3,
+       "winners": 3,
+       "ukWinners": 0,
+       "prize": null,
+       "text": null
+      },
+      {
+       "level": 4,
+       "winners": 32,
+       "ukWinners": 7,
+       "prize": 1226.9,
+       "text": null
+      },
+      {
+       "level": 5,
+       "winners": 733,
+       "ukWinners": 183,
+       "prize": 98.6,
+       "text": null
+      },
+      {
+       "level": 6,
+       "winners": 1479,
+       "ukWinners": 375,
+       "prize": 51.6,
+       "text": null
+      },
+      {
+       "level": 7,
+       "winners": 1541,
+       "ukWinners": 405,
+       "prize": 34.8,
+       "text": null
+      },
+      {
+       "level": 8,
+       "winners": 23501,
+       "ukWinners": 5710,
+       "prize": 11.4,
+       "text": null
+      },
+      {
+       "level": 9,
+       "winners": 32343,
+       "ukWinners": 8003,
+       "prize": 9.2,
+       "text": null
+      },
+      {
+       "level": 10,
+       "winners": 72258,
+       "ukWinners": 18645,
+       "prize": 7.7,
+       "text": null
+      },
+      {
+       "level": 11,
+       "winners": 130007,
+       "ukWinners": 30384,
+       "prize": 5.1,
+       "text": null
+      },
+      {
+       "level": 12,
+       "winners": 488308,
+       "ukWinners": 119319,
+       "prize": 4.3,
+       "text": null
+      },
+      {
+       "level": 13,
+       "winners": 1091588,
+       "ukWinners": 274700,
+       "prize": 3.1,
+       "text": null
+      }
+     ],
+     "raffles": [
+      "ZWTF91454"
+     ]
+    }
+   },
+   "picks": {
+    "drawDate": "2026-11-13",
+    "lines": [
+     {
+      "key": "top",
+      "label": "Top pick",
+      "about": "Balanced line built to fit how winning lines usually look, with numbers other players tend to avoid.",
+      "main": [
+       6,
+       17,
+       29,
+       35,
+       46
+      ],
+      "extra": [
+       1,
+       2
+      ],
+      "strength": 99,
+      "tags": [
+       "Sum in the middle band",
+       "3 odd, 2 even",
+       "High/low balanced",
+       "Spread across the range"
+      ],
+      "top": true
+     },
+     {
+      "key": "hot",
+      "label": "Hot run",
+      "about": "Leans on the numbers drawn most often in recent draws.",
+      "main": [
+       10,
+       16,
+       23,
+       33,
+       37
+      ],
+      "extra": [
+       5,
+       8
+      ],
+      "strength": 93,
+      "tags": [
+       "Sum in the middle band",
+       "3 odd, 2 even",
+       "High/low balanced",
+       "Spread across the range"
+      ],
+      "top": false
+     },
+     {
+      "key": "due",
+      "label": "Due a turn",
+      "about": "Leans on numbers that have gone longest without being drawn.",
+      "main": [
+       6,
+       22,
+       25,
+       40,
+       43
+      ],
+      "extra": [
+       4,
+       12
+      ],
+      "strength": 90,
+      "tags": [
+       "Sum in the middle band",
+       "2 odd, 3 even",
+       "High/low balanced",
+       "Spread across the range"
+      ],
+      "top": false
+     }
+    ],
+    "basedOn": "2026-11-10",
+    "createdAt": "2026-11-11T14:52:04.756Z"
+   },
+   "lastPicksResult": null,
+   "value": {
+    "perLine": 0.5946572613672696,
+    "perPound": 0.23786290454690784,
+    "basePerPound": 0.2682557909229995,
+    "ratio": 0.8867018442676763,
+    "verdict": "normal",
+    "jackpot": 14000000,
+    "baseJackpot": 25559255,
+    "linesEstimate": 23905044,
+    "linesMeasured": true,
+    "fixedPrizes": false
+   },
+   "historyCount": 1997,
+   "eraDraws": 1057
+  },
+  "thunderball": {
+   "next": {
+    "date": "2026-11-11",
+    "jackpot": 500000,
+    "jackpotText": null,
+    "rollovers": 0,
+    "mustBeWon": false
+   },
+   "latest": {
+    "date": "2026-11-10",
+    "sets": [
+     {
+      "m": [
+       3,
+       11,
+       23,
+       26,
+       27
+      ],
+      "x": [
+       11
+      ]
+     }
+    ],
+    "rolled": false,
+    "no": 4006,
+    "breakdown": {
+     "confirmed": true,
+     "tiers": [
+      {
+       "level": 1,
+       "winners": 0,
+       "prize": null,
+       "text": null
+      },
+      {
+       "level": 2,
+       "winners": 4,
+       "prize": 5000,
+       "text": null
+      },
+      {
+       "level": 3,
+       "winners": 38,
+       "prize": 250,
+       "text": null
+      },
+      {
+       "level": 4,
+       "winners": 402,
+       "prize": 100,
+       "text": null
+      },
+      {
+       "level": 5,
+       "winners": 1043,
+       "prize": 20,
+       "text": null
+      },
+      {
+       "level": 6,
+       "winners": 11764,
+       "prize": 10,
+       "text": null
+      },
+      {
+       "level": 7,
+       "winners": 9001,
+       "prize": 10,
+       "text": null
+      },
+      {
+       "level": 8,
+       "winners": 29267,
+       "prize": 5,
+       "text": null
+      },
+      {
+       "level": 9,
+       "winners": 31058,
+       "prize": 3,
+       "text": null
+      }
+     ],
+     "raffles": []
+    }
+   },
+   "picks": {
+    "drawDate": "2026-11-11",
+    "lines": [
+     {
+      "key": "top",
+      "label": "Top pick",
+      "about": "Balanced line built to fit how winning lines usually look, with numbers other players tend to avoid.",
+      "main": [
+       7,
+       9,
+       16,
+       34,
+       35
+      ],
+      "extra": [
+       2
+      ],
+      "strength": 99,
+      "tags": [
+       "Sum in the middle band",
+       "3 odd, 2 even",
+       "High/low balanced",
+       "Fewer birthday numbers, less jackpot sharing"
+      ],
+      "top": true
+     },
+     {
+      "key": "hot",
+      "label": "Hot run",
+      "about": "Leans on the numbers drawn most often in recent draws.",
+      "main": [
+       1,
+       12,
+       26,
+       34,
+       35
+      ],
+      "extra": [
+       4
+      ],
+      "strength": 97,
+      "tags": [
+       "Sum in the middle band",
+       "2 odd, 3 even",
+       "High/low balanced",
+       "Spread across the range"
+      ],
+      "top": false
+     },
+     {
+      "key": "due",
+      "label": "Due a turn",
+      "about": "Leans on numbers that have gone longest without being drawn.",
+      "main": [
+       2,
+       7,
+       8,
+       31,
+       37
+      ],
+      "extra": [
+       6
+      ],
+      "strength": 73,
+      "tags": [
+       "Sum in the middle band",
+       "3 odd, 2 even",
+       "High/low balanced",
+       "Fewer birthday numbers, less jackpot sharing"
+      ],
+      "top": false
+     }
+    ],
+    "basedOn": "2026-11-10",
+    "createdAt": "2026-11-11T14:52:04.756Z"
+   },
+   "lastPicksResult": null,
+   "value": {
+    "perLine": 0.5288153558830251,
+    "perPound": 0.5288153558830251,
+    "basePerPound": 0.5288153558830251,
+    "ratio": 1,
+    "verdict": "normal",
+    "jackpot": 500000,
+    "baseJackpot": 500000,
+    "linesEstimate": 899697,
+    "linesMeasured": true,
+    "fixedPrizes": true
+   },
+   "historyCount": 4006,
+   "eraDraws": 3042
+  },
+  "setforlife": {
+   "next": {
+    "date": "2026-11-12",
+    "jackpot": null,
+    "jackpotText": "£10,000 every month for 30 years",
+    "rollovers": 0,
+    "mustBeWon": false
+   },
+   "latest": {
+    "date": "2026-11-09",
+    "sets": [
+     {
+      "m": [
+       4,
+       5,
+       17,
+       25,
+       44
+      ],
+      "x": [
+       5
+      ]
+     }
+    ],
+    "rolled": false,
+    "no": 799,
+    "breakdown": {
+     "confirmed": true,
+     "tiers": [
+      {
+       "level": 1,
+       "winners": 1,
+       "prize": null,
+       "text": "£10,000 every month for 30 years"
+      },
+      {
+       "level": 2,
+       "winners": 2,
+       "prize": null,
+       "text": "£10,000 every month for one year"
+      },
+      {
+       "level": 3,
+       "winners": 35,
+       "prize": 250,
+       "text": null
+      },
+      {
+       "level": 4,
+       "winners": 256,
+       "prize": 50,
+       "text": null
+      },
+      {
+       "level": 5,
+       "winners": 1283,
+       "prize": 30,
+       "text": null
+      },
+      {
+       "level": 6,
+       "winners": 10622,
+       "prize": 20,
+       "text": null
+      },
+      {
+       "level": 7,
+       "winners": 16708,
+       "prize": 10,
+       "text": null
+      },
+      {
+       "level": 8,
+       "winners": 134403,
+       "prize": 5,
+       "text": null
+      }
+     ],
+     "raffles": []
+    }
+   },
+   "picks": {
+    "drawDate": "2026-11-12",
+    "lines": [
+     {
+      "key": "top",
+      "label": "Top pick",
+      "about": "Balanced line built to fit how winning lines usually look, with numbers other players tend to avoid.",
+      "main": [
+       1,
+       12,
+       24,
+       33,
+       47
+      ],
+      "extra": [
+       10
+      ],
+      "strength": 99,
+      "tags": [
+       "Sum in the middle band",
+       "3 odd, 2 even",
+       "High/low balanced",
+       "Spread across the range"
+      ],
+      "top": true
+     },
+     {
+      "key": "hot",
+      "label": "Hot run",
+      "about": "Leans on the numbers drawn most often in recent draws.",
+      "main": [
+       1,
+       11,
+       23,
+       28,
+       44
+      ],
+      "extra": [
+       5
+      ],
+      "strength": 79,
+      "tags": [
+       "Sum in the middle band",
+       "3 odd, 2 even",
+       "High/low balanced",
+       "Spread across the range"
+      ],
+      "top": false
+     },
+     {
+      "key": "due",
+      "label": "Due a turn",
+      "about": "Leans on numbers that have gone longest without being drawn.",
+      "main": [
+       3,
+       6,
+       16,
+       22,
+       42
+      ],
+      "extra": [
+       3
+      ],
+      "strength": 22,
+      "tags": [
+       "Spread across the range"
+      ],
+      "top": false
+     }
+    ],
+    "basedOn": "2026-11-09",
+    "createdAt": "2026-11-11T14:52:04.756Z"
+   },
+   "lastPicksResult": null,
+   "value": {
+    "perLine": 0.8441730733751472,
+    "perPound": 0.5627820489167649,
+    "basePerPound": 0.5627820489167649,
+    "ratio": 1,
+    "verdict": "normal",
+    "jackpot": 0,
+    "baseJackpot": 0,
+    "linesEstimate": 1995412,
+    "linesMeasured": true,
+    "fixedPrizes": true
+   },
+   "historyCount": 799,
+   "eraDraws": 799
+  }
+ }
+}
