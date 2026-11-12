@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T02:22:30.453Z",
+ "generatedAt": "2026-11-12T03:18:56.072Z",
  "games": {
   "lotto": {
    "next": {
@@ -118,7 +118,8 @@
      ],
      "raffles": []
     },
-    "rolled": false
+    "rolled": false,
+    "jp": 5181752
    },
    "picks": {
     "drawDate": "2026-11-14",
@@ -211,11 +212,11 @@
    "value": {
     "perLine": 1.0004594159244653,
     "perPound": 0.5002297079622327,
-    "basePerPound": 0.5281444963136315,
-    "ratio": 0.9471455472011168,
+    "basePerPound": 0.5287695697380574,
+    "ratio": 0.9460258997317813,
     "verdict": "normal",
     "jackpot": 2000000,
-    "baseJackpot": 3459437,
+    "baseJackpot": 3492117,
     "linesEstimate": 6875233,
     "linesMeasured": true,
     "fixedPrizes": false
