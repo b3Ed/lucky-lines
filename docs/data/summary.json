@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T03:18:56.072Z",
+ "generatedAt": "2026-11-12T20:47:57.280Z",
  "games": {
   "lotto": {
    "next": {
@@ -643,87 +643,87 @@
   },
   "setforlife": {
    "next": {
-    "date": "2026-11-12",
+    "date": "2026-11-16",
     "jackpot": null,
     "jackpotText": "£10,000 every month for 30 years",
     "rollovers": 0,
     "mustBeWon": false
    },
    "latest": {
-    "date": "2026-11-09",
+    "date": "2026-11-12",
+    "no": 800,
     "sets": [
      {
       "m": [
-       4,
+       2,
        5,
+       15,
        17,
-       25,
-       44
+       46
       ],
       "x": [
-       5
+       4
       ]
      }
     ],
-    "rolled": false,
-    "no": 799,
     "breakdown": {
      "confirmed": true,
      "tiers": [
       {
        "level": 1,
-       "winners": 1,
+       "winners": 0,
        "prize": null,
-       "text": "£10,000 every month for 30 years"
+       "text": "£0"
       },
       {
        "level": 2,
-       "winners": 2,
+       "winners": 0,
        "prize": null,
-       "text": "£10,000 every month for one year"
+       "text": "£0"
       },
       {
        "level": 3,
-       "winners": 35,
+       "winners": 21,
        "prize": 250,
        "text": null
       },
       {
        "level": 4,
-       "winners": 256,
+       "winners": 214,
        "prize": 50,
        "text": null
       },
       {
        "level": 5,
-       "winners": 1283,
+       "winners": 1042,
        "prize": 30,
        "text": null
       },
       {
        "level": 6,
-       "winners": 10622,
+       "winners": 9659,
        "prize": 20,
        "text": null
       },
       {
        "level": 7,
-       "winners": 16708,
+       "winners": 14853,
        "prize": 10,
        "text": null
       },
       {
        "level": 8,
-       "winners": 134403,
+       "winners": 130247,
        "prize": 5,
        "text": null
       }
      ],
      "raffles": []
-    }
+    },
+    "rolled": false
    },
    "picks": {
-    "drawDate": "2026-11-12",
+    "drawDate": "2026-11-16",
     "lines": [
      {
       "key": "top",
@@ -731,13 +731,13 @@
       "about": "Balanced line built to fit how winning lines usually look, with numbers other players tend to avoid.",
       "main": [
        1,
-       12,
+       11,
        24,
        33,
-       47
+       38
       ],
       "extra": [
-       10
+       3
       ],
       "strength": 99,
       "tags": [
@@ -753,16 +753,16 @@
       "label": "Hot run",
       "about": "Leans on the numbers drawn most often in recent draws.",
       "main": [
-       1,
-       11,
-       23,
-       28,
-       44
+       10,
+       15,
+       19,
+       30,
+       39
       ],
       "extra": [
-       5
+       8
       ],
-      "strength": 79,
+      "strength": 81,
       "tags": [
        "Sum in the middle band",
        "3 odd, 2 even",
@@ -778,24 +778,42 @@
       "main": [
        3,
        6,
-       16,
-       22,
-       42
+       29,
+       30,
+       47
       ],
       "extra": [
-       3
+       7
       ],
-      "strength": 22,
+      "strength": 65,
       "tags": [
-       "Spread across the range"
+       "Sum in the middle band",
+       "3 odd, 2 even",
+       "High/low balanced"
       ],
       "top": false
      }
     ],
-    "basedOn": "2026-11-09",
-    "createdAt": "2026-11-11T14:52:04.756Z"
+    "basedOn": "2026-11-12",
+    "createdAt": "2026-11-12T20:47:57.280Z"
    },
-   "lastPicksResult": null,
+   "lastPicksResult": [
+    {
+     "key": "top",
+     "total": 0,
+     "wins": []
+    },
+    {
+     "key": "hot",
+     "total": 0,
+     "wins": []
+    },
+    {
+     "key": "due",
+     "total": 0,
+     "wins": []
+    }
+   ],
    "value": {
     "perLine": 0.8441730733751472,
     "perPound": 0.5627820489167649,
@@ -804,12 +822,12 @@
     "verdict": "normal",
     "jackpot": 0,
     "baseJackpot": 0,
-    "linesEstimate": 1995412,
+    "linesEstimate": 1933710,
     "linesMeasured": true,
     "fixedPrizes": true
    },
-   "historyCount": 799,
-   "eraDraws": 799
+   "historyCount": 800,
+   "eraDraws": 800
   }
  }
 }
