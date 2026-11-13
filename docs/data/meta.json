@@ -21,13 +21,13 @@
  },
  "thunderball": {
   "next": {
-   "date": "2026-11-13",
+   "date": "2026-11-14",
    "jackpot": 500000,
    "jackpotText": null,
    "rollovers": 0,
    "mustBeWon": false
   },
-  "feedDate": "2026-11-11"
+  "feedDate": "2026-11-13"
  },
  "setforlife": {
   "next": {
