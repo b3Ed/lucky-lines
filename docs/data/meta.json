@@ -11,13 +11,13 @@
  },
  "euromillions": {
   "next": {
-   "date": "2026-11-13",
-   "jackpot": 14000000,
+   "date": "2026-11-17",
+   "jackpot": 21000000,
    "jackpotText": null,
    "rollovers": 0,
    "mustBeWon": false
   },
-  "feedDate": "2026-11-10"
+  "feedDate": "2026-11-13"
  },
  "thunderball": {
   "next": {

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T20:27:28.547Z",
+ "generatedAt": "2026-11-14T01:32:54.226Z",
  "games": {
   "lotto": {
    "next": {
@@ -227,7 +227,9 @@
   "euromillions": {
    "next": {
     "date": "2026-11-17",
-    "jackpot": null,
+    "jackpot": 21000000,
+    "jackpotText": null,
+    "rollovers": 0,
     "mustBeWon": false
    },
    "latest": {
@@ -247,7 +249,108 @@
       ]
      }
     ],
-    "rolled": false
+    "rolled": false,
+    "no": 1998,
+    "breakdown": {
+     "confirmed": true,
+     "tiers": [
+      {
+       "level": 1,
+       "winners": 0,
+       "ukWinners": 0,
+       "prize": null,
+       "text": null
+      },
+      {
+       "level": 2,
+       "winners": 4,
+       "ukWinners": 2,
+       "prize": 129681.1,
+       "text": null
+      },
+      {
+       "level": 3,
+       "winners": 8,
+       "ukWinners": 3,
+       "prize": 15154.3,
+       "text": null
+      },
+      {
+       "level": 4,
+       "winners": 30,
+       "ukWinners": 15,
+       "prize": 1258.7,
+       "text": null
+      },
+      {
+       "level": 5,
+       "winners": 715,
+       "ukWinners": 203,
+       "prize": 97.2,
+       "text": null
+      },
+      {
+       "level": 6,
+       "winners": 1263,
+       "ukWinners": 346,
+       "prize": 58.2,
+       "text": null
+      },
+      {
+       "level": 7,
+       "winners": 1690,
+       "ukWinners": 473,
+       "prize": 30.5,
+       "text": null
+      },
+      {
+       "level": 8,
+       "winners": 18949,
+       "ukWinners": 4895,
+       "prize": 13.6,
+       "text": null
+      },
+      {
+       "level": 9,
+       "winners": 28558,
+       "ukWinners": 7329,
+       "prize": 10,
+       "text": null
+      },
+      {
+       "level": 10,
+       "winners": 71701,
+       "ukWinners": 18764,
+       "prize": 7.4,
+       "text": null
+      },
+      {
+       "level": 11,
+       "winners": 102329,
+       "ukWinners": 25274,
+       "prize": 6.3,
+       "text": null
+      },
+      {
+       "level": 12,
+       "winners": 422568,
+       "ukWinners": 103614,
+       "prize": 4.8,
+       "text": null
+      },
+      {
+       "level": 13,
+       "winners": 1035060,
+       "ukWinners": 254468,
+       "prize": 3.1,
+       "text": null
+      }
+     ],
+     "raffles": [
+      "VWMX49362"
+     ]
+    },
+    "jp": 14195000
    },
    "picks": {
     "drawDate": "2026-11-17",
@@ -346,14 +449,14 @@
     }
    ],
    "value": {
-    "perLine": 0.5026313459286701,
-    "perPound": 0.20105253837146803,
-    "basePerPound": 0.2682557909229995,
-    "ratio": 0.7494807015337777,
+    "perLine": 0.6544820397946329,
+    "perPound": 0.2617928159178532,
+    "basePerPound": 0.27324152936379564,
+    "ratio": 0.9581003902569307,
     "verdict": "normal",
-    "jackpot": 0,
-    "baseJackpot": 25559255,
-    "linesEstimate": 23905044,
+    "jackpot": 21000000,
+    "baseJackpot": 25335564,
+    "linesEstimate": 22667119,
     "linesMeasured": true,
     "fixedPrizes": false
    },
