@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T01:07:56.268Z",
+ "generatedAt": "2026-11-16T22:50:36.767Z",
  "games": {
   "lotto": {
    "next": {
@@ -667,87 +667,87 @@
   },
   "setforlife": {
    "next": {
-    "date": "2026-11-16",
+    "date": "2026-11-19",
     "jackpot": null,
     "jackpotText": "£10,000 every month for 30 years",
     "rollovers": 0,
     "mustBeWon": false
    },
    "latest": {
-    "date": "2026-11-12",
-    "no": 800,
+    "date": "2026-11-16",
     "sets": [
      {
       "m": [
-       2,
-       5,
-       15,
-       17,
-       46
+       7,
+       11,
+       12,
+       32,
+       42
       ],
       "x": [
-       4
+       9
       ]
      }
     ],
+    "rolled": false,
+    "no": 801,
     "breakdown": {
      "confirmed": true,
      "tiers": [
       {
        "level": 1,
-       "winners": 0,
+       "winners": 1,
        "prize": null,
-       "text": "£0"
+       "text": "£10,000 every month for 30 years"
       },
       {
        "level": 2,
-       "winners": 0,
+       "winners": 2,
        "prize": null,
-       "text": "£0"
+       "text": "£10,000 every month for one year"
       },
       {
        "level": 3,
-       "winners": 21,
+       "winners": 17,
        "prize": 250,
        "text": null
       },
       {
        "level": 4,
-       "winners": 214,
+       "winners": 224,
        "prize": 50,
        "text": null
       },
       {
        "level": 5,
-       "winners": 1042,
+       "winners": 1166,
        "prize": 30,
        "text": null
       },
       {
        "level": 6,
-       "winners": 9659,
+       "winners": 10257,
        "prize": 20,
        "text": null
       },
       {
        "level": 7,
-       "winners": 14853,
+       "winners": 15816,
        "prize": 10,
        "text": null
       },
       {
        "level": 8,
-       "winners": 130247,
+       "winners": 137841,
        "prize": 5,
        "text": null
       }
      ],
      "raffles": []
-    },
-    "rolled": false
+    }
    },
    "picks": {
-    "drawDate": "2026-11-16",
+    "drawDate": "2026-11-19",
     "lines": [
      {
       "key": "top",
@@ -755,13 +755,13 @@
       "about": "Balanced line built to fit how winning lines usually look, with numbers other players tend to avoid.",
       "main": [
        1,
-       11,
-       24,
+       14,
+       22,
        33,
-       38
+       35
       ],
       "extra": [
-       3
+       7
       ],
       "strength": 99,
       "tags": [
@@ -777,21 +777,21 @@
       "label": "Hot run",
       "about": "Leans on the numbers drawn most often in recent draws.",
       "main": [
-       10,
-       15,
-       19,
-       30,
-       39
+       1,
+       26,
+       29,
+       34,
+       47
       ],
       "extra": [
-       8
+       10
       ],
-      "strength": 81,
+      "strength": 86,
       "tags": [
        "Sum in the middle band",
        "3 odd, 2 even",
-       "High/low balanced",
-       "Spread across the range"
+       "Spread across the range",
+       "Fewer birthday numbers, less jackpot sharing"
       ],
       "top": false
      },
@@ -800,26 +800,27 @@
       "label": "Due a turn",
       "about": "Leans on numbers that have gone longest without being drawn.",
       "main": [
-       3,
-       6,
-       29,
-       30,
-       47
+       2,
+       16,
+       31,
+       33,
+       43
       ],
       "extra": [
-       7
+       6
       ],
-      "strength": 65,
+      "strength": 96,
       "tags": [
        "Sum in the middle band",
        "3 odd, 2 even",
-       "High/low balanced"
+       "High/low balanced",
+       "Spread across the range"
       ],
       "top": false
      }
     ],
-    "basedOn": "2026-11-12",
-    "createdAt": "2026-11-12T20:47:57.280Z"
+    "basedOn": "2026-11-16",
+    "createdAt": "2026-11-16T22:50:36.767Z"
    },
    "lastPicksResult": [
     {
@@ -846,12 +847,12 @@
     "verdict": "normal",
     "jackpot": 0,
     "baseJackpot": 0,
-    "linesEstimate": 1933710,
+    "linesEstimate": 2046455,
     "linesMeasured": true,
     "fixedPrizes": true
    },
-   "historyCount": 800,
-   "eraDraws": 800
+   "historyCount": 801,
+   "eraDraws": 801
   }
  }
 }
