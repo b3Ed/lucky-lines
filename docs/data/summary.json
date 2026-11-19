@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T21:21:03.482Z",
+ "generatedAt": "2026-11-19T02:39:59.198Z",
  "games": {
   "lotto": {
    "next": {
@@ -118,7 +118,8 @@
      ],
      "raffles": []
     },
-    "rolled": true
+    "rolled": true,
+    "jp": 2839890
    },
    "picks": {
     "drawDate": "2026-11-21",
