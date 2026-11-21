@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T21:00:00.130Z",
+ "generatedAt": "2026-11-21T02:34:49.782Z",
  "games": {
   "lotto": {
    "next": {
@@ -262,7 +262,108 @@
       ]
      }
     ],
-    "rolled": false
+    "rolled": false,
+    "no": 2000,
+    "breakdown": {
+     "confirmed": true,
+     "tiers": [
+      {
+       "level": 1,
+       "winners": 0,
+       "ukWinners": 0,
+       "prize": null,
+       "text": null
+      },
+      {
+       "level": 2,
+       "winners": 2,
+       "ukWinners": 1,
+       "prize": 225959.9,
+       "text": null
+      },
+      {
+       "level": 3,
+       "winners": 13,
+       "ukWinners": 2,
+       "prize": 8124.7,
+       "text": null
+      },
+      {
+       "level": 4,
+       "winners": 33,
+       "ukWinners": 9,
+       "prize": 996.9,
+       "text": null
+      },
+      {
+       "level": 5,
+       "winners": 665,
+       "ukWinners": 156,
+       "prize": 91.1,
+       "text": null
+      },
+      {
+       "level": 6,
+       "winners": 1430,
+       "ukWinners": 367,
+       "prize": 44.8,
+       "text": null
+      },
+      {
+       "level": 7,
+       "winners": 1603,
+       "ukWinners": 390,
+       "prize": 28,
+       "text": null
+      },
+      {
+       "level": 8,
+       "winners": 20722,
+       "ukWinners": 5429,
+       "prize": 10.8,
+       "text": null
+      },
+      {
+       "level": 9,
+       "winners": 29279,
+       "ukWinners": 7756,
+       "prize": 8.5,
+       "text": null
+      },
+      {
+       "level": 10,
+       "winners": 66220,
+       "ukWinners": 17611,
+       "prize": 7,
+       "text": null
+      },
+      {
+       "level": 11,
+       "winners": 109013,
+       "ukWinners": 28700,
+       "prize": 5.1,
+       "text": null
+      },
+      {
+       "level": 12,
+       "winners": 426509,
+       "ukWinners": 110951,
+       "prize": 4.1,
+       "text": null
+      },
+      {
+       "level": 13,
+       "winners": 967097,
+       "ukWinners": 259736,
+       "prize": 2.9,
+       "text": null
+      }
+     ],
+     "raffles": [
+      "TBMX95472"
+     ]
+    },
+    "jp": 31727888
    },
    "picks": {
     "drawDate": "2026-11-24",
@@ -360,14 +461,14 @@
     }
    ],
    "value": {
-    "perLine": 0.8891151250074588,
-    "perPound": 0.35564605000298355,
-    "basePerPound": 0.31619481271347316,
-    "ratio": 1.1247687681874148,
+    "perLine": 0.7710096026142539,
+    "perPound": 0.30840384104570157,
+    "basePerPound": 0.2700622884297075,
+    "ratio": 1.1419729975589454,
     "verdict": "normal",
     "jackpot": 39000000,
     "baseJackpot": 24555324,
-    "linesEstimate": 13033254,
+    "linesEstimate": 21178775,
     "linesMeasured": true,
     "fixedPrizes": false
    },
