@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-21T02:34:49.782Z",
+ "generatedAt": "2026-11-21T20:00:45.612Z",
  "games": {
   "lotto": {
    "next": {
-    "date": "2026-11-21",
-    "jackpot": 12000000,
-    "jackpotText": null,
+    "date": "2026-11-25",
+    "jackpot": 0,
+    "jackpotText": "0",
     "rollovers": 2,
-    "mustBeWon": true
+    "mustBeWon": false
    },
    "latest": {
     "date": "2026-11-18",
@@ -122,19 +122,19 @@
     "jp": 2839890
    },
    "picks": {
-    "drawDate": "2026-11-21",
+    "drawDate": "2026-11-25",
     "lines": [
      {
       "key": "top",
       "label": "Top pick",
       "about": "Balanced line built to fit how winning lines usually look, with numbers other players tend to avoid.",
       "main": [
-       4,
-       11,
+       10,
+       12,
        21,
-       46,
-       51,
-       54
+       33,
+       38,
+       49
       ],
       "extra": [],
       "strength": 99,
@@ -151,19 +151,20 @@
       "label": "Hot run",
       "about": "Leans on the numbers drawn most often in recent draws.",
       "main": [
-       2,
-       5,
-       47,
-       49,
-       52,
-       53
+       11,
+       24,
+       25,
+       38,
+       51,
+       58
       ],
       "extra": [],
-      "strength": 82,
+      "strength": 96,
       "tags": [
        "Sum in the middle band",
-       "4 odd, 2 even",
-       "Fewer birthday numbers, less jackpot sharing"
+       "3 odd, 3 even",
+       "High/low balanced",
+       "Spread across the range"
       ],
       "top": false
      },
@@ -172,26 +173,25 @@
       "label": "Due a turn",
       "about": "Leans on numbers that have gone longest without being drawn.",
       "main": [
-       1,
-       23,
-       30,
-       33,
-       38,
-       45
+       7,
+       10,
+       34,
+       37,
+       41,
+       42
       ],
       "extra": [],
-      "strength": 94,
+      "strength": 84,
       "tags": [
        "Sum in the middle band",
-       "4 odd, 2 even",
-       "High/low balanced",
-       "Spread across the range"
+       "3 odd, 3 even",
+       "Fewer birthday numbers, less jackpot sharing"
       ],
       "top": false
      }
     ],
     "basedOn": "2026-11-18",
-    "createdAt": "2026-11-18T21:21:03.482Z"
+    "createdAt": "2026-11-21T20:00:45.612Z"
    },
    "lastPicksResult": [
     {
@@ -223,12 +223,12 @@
     }
    ],
    "value": {
-    "perLine": 3.499731001635017,
-    "perPound": 1.7498655008175086,
+    "perLine": 0.923951040841748,
+    "perPound": 0.461975520420874,
     "basePerPound": 0.5313352878272302,
-    "ratio": 3.293335754102027,
-    "verdict": "strong",
-    "jackpot": 12000000,
+    "ratio": 0.8694613947250022,
+    "verdict": "normal",
+    "jackpot": 0,
     "baseJackpot": 3459437,
     "linesEstimate": 4658783,
     "linesMeasured": true,

@@ -1,11 +1,11 @@
 {
  "lotto": {
   "next": {
-   "date": "2026-11-21",
-   "jackpot": 12000000,
-   "jackpotText": null,
+   "date": "2026-11-25",
+   "jackpot": 0,
+   "jackpotText": "0",
    "rollovers": 2,
-   "mustBeWon": true
+   "mustBeWon": false
   },
   "feedDate": "2026-11-18"
  },
