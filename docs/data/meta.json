@@ -1,13 +1,13 @@
 {
  "lotto": {
   "next": {
-   "date": "2026-11-25",
-   "jackpot": 2000000,
+   "date": "2026-11-28",
+   "jackpot": 3420800,
    "jackpotText": null,
-   "rollovers": 0,
+   "rollovers": 1,
    "mustBeWon": false
   },
-  "feedDate": "2026-11-21"
+  "feedDate": "2026-11-25"
  },
  "euromillions": {
   "next": {
@@ -21,13 +21,13 @@
  },
  "thunderball": {
   "next": {
-   "date": "2026-11-25",
+   "date": "2026-11-27",
    "jackpot": 500000,
    "jackpotText": null,
    "rollovers": 0,
    "mustBeWon": false
   },
-  "feedDate": "2026-11-24"
+  "feedDate": "2026-11-25"
  },
  "setforlife": {
   "next": {

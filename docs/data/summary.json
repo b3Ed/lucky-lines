@@ -1,42 +1,42 @@
 {
- "generatedAt": "2026-11-24T22:58:47.802Z",
+ "generatedAt": "2026-11-25T22:25:14.317Z",
  "games": {
   "lotto": {
    "next": {
-    "date": "2026-11-25",
-    "jackpot": 2000000,
+    "date": "2026-11-28",
+    "jackpot": 3420800,
     "jackpotText": null,
-    "rollovers": 0,
+    "rollovers": 1,
     "mustBeWon": false
    },
    "latest": {
-    "date": "2026-11-21",
-    "no": 3226,
+    "date": "2026-11-25",
+    "no": 3227,
     "sets": [
      {
       "m": [
-       9,
-       29,
-       30,
-       42,
-       45,
-       46
+       3,
+       11,
+       28,
+       44,
+       52,
+       54
       ],
       "x": [
-       3
+       9
       ]
      },
      {
       "m": [
-       6,
-       20,
-       45,
-       56,
-       58,
-       59
+       1,
+       11,
+       13,
+       24,
+       35,
+       43
       ],
       "x": [
-       12
+       10
       ]
      }
     ],
@@ -51,32 +51,32 @@
       },
       {
        "level": 2,
-       "winners": 3,
+       "winners": 1,
        "prize": 1000000,
        "text": null
       },
       {
        "level": 3,
-       "winners": 57,
+       "winners": 22,
        "prize": 1000,
        "text": null
       },
       {
        "level": 4,
-       "winners": 4563,
+       "winners": 1942,
        "prize": 50,
        "text": null
       },
       {
        "level": 5,
-       "winners": 113529,
-       "prize": 31,
+       "winners": 49394,
+       "prize": 10,
        "text": null
       },
       {
        "level": 6,
-       "winners": 1101809,
-       "prize": 5,
+       "winners": 483170,
+       "prize": 1,
        "text": null
       },
       {
@@ -87,54 +87,53 @@
       },
       {
        "level": 8,
-       "winners": 0,
-       "prize": null,
+       "winners": 1,
+       "prize": 1000000,
        "text": null
       },
       {
        "level": 9,
-       "winners": 40,
+       "winners": 34,
        "prize": 1000,
        "text": null
       },
       {
        "level": 10,
-       "winners": 3152,
+       "winners": 2744,
        "prize": 50,
        "text": null
       },
       {
        "level": 11,
-       "winners": 80420,
-       "prize": 31,
+       "winners": 61174,
+       "prize": 10,
        "text": null
       },
       {
        "level": 12,
-       "winners": 842477,
-       "prize": 5,
+       "winners": 535819,
+       "prize": 1,
        "text": null
       }
      ],
      "raffles": []
     },
-    "rolled": false,
-    "jp": 12000000
+    "rolled": true
    },
    "picks": {
-    "drawDate": "2026-11-25",
+    "drawDate": "2026-11-28",
     "lines": [
      {
       "key": "top",
       "label": "Top pick",
       "about": "Balanced line built to fit how winning lines usually look, with numbers other players tend to avoid.",
       "main": [
-       10,
-       12,
-       21,
-       33,
+       4,
+       5,
+       29,
        38,
-       49
+       45,
+       54
       ],
       "extra": [],
       "strength": 99,
@@ -151,18 +150,18 @@
       "label": "Hot run",
       "about": "Leans on the numbers drawn most often in recent draws.",
       "main": [
-       11,
-       24,
-       25,
-       38,
-       51,
-       58
+       3,
+       4,
+       29,
+       32,
+       37,
+       51
       ],
       "extra": [],
-      "strength": 96,
+      "strength": 92,
       "tags": [
        "Sum in the middle band",
-       "3 odd, 3 even",
+       "4 odd, 2 even",
        "High/low balanced",
        "Spread across the range"
       ],
@@ -175,23 +174,24 @@
       "main": [
        7,
        10,
-       34,
-       37,
-       41,
-       42
+       23,
+       50,
+       55,
+       58
       ],
       "extra": [],
-      "strength": 84,
+      "strength": 96,
       "tags": [
        "Sum in the middle band",
        "3 odd, 3 even",
-       "Fewer birthday numbers, less jackpot sharing"
+       "High/low balanced",
+       "Spread across the range"
       ],
       "top": false
      }
     ],
-    "basedOn": "2026-11-18",
-    "createdAt": "2026-11-21T20:00:45.612Z"
+    "basedOn": "2026-11-25",
+    "createdAt": "2026-11-25T22:25:14.317Z"
    },
    "lastPicksResult": [
     {
@@ -201,35 +201,35 @@
     },
     {
      "key": "hot",
-     "total": 0,
-     "wins": []
-    },
-    {
-     "key": "due",
      "total": 2,
      "wins": [
       {
-       "round": 0,
+       "round": 1,
        "tier": "Match 2",
        "amount": 2
       }
      ]
+    },
+    {
+     "key": "due",
+     "total": 0,
+     "wins": []
     }
    ],
    "value": {
-    "perLine": 0.9937577613847951,
-    "perPound": 0.49687888069239755,
-    "basePerPound": 0.5223485083946933,
-    "ratio": 0.9512401638121448,
+    "perLine": 1.0602501716107016,
+    "perPound": 0.5301250858053508,
+    "basePerPound": 0.5308948164992704,
+    "ratio": 0.9985501258064728,
     "verdict": "normal",
-    "jackpot": 2000000,
+    "jackpot": 3420800,
     "baseJackpot": 3459437,
-    "linesEstimate": 11302480,
+    "linesEstimate": 4956412,
     "linesMeasured": true,
     "fixedPrizes": false
    },
-   "historyCount": 3226,
-   "eraDraws": 1161
+   "historyCount": 3227,
+   "eraDraws": 1162
   },
   "euromillions": {
    "next": {
@@ -484,30 +484,29 @@
   },
   "thunderball": {
    "next": {
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "jackpot": 500000,
     "jackpotText": null,
     "rollovers": 0,
     "mustBeWon": false
    },
    "latest": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
+    "no": 4015,
     "sets": [
      {
       "m": [
-       2,
+       5,
+       7,
+       10,
        12,
-       14,
-       20,
-       37
+       19
       ],
       "x": [
-       2
+       3
       ]
      }
     ],
-    "rolled": false,
-    "no": 4014,
     "breakdown": {
      "confirmed": true,
      "tiers": [
@@ -519,58 +518,59 @@
       },
       {
        "level": 2,
-       "winners": 1,
+       "winners": 4,
        "prize": 5000,
        "text": null
       },
       {
        "level": 3,
-       "winners": 16,
+       "winners": 37,
        "prize": 250,
        "text": null
       },
       {
        "level": 4,
-       "winners": 225,
+       "winners": 513,
        "prize": 100,
        "text": null
       },
       {
        "level": 5,
-       "winners": 605,
+       "winners": 1031,
        "prize": 20,
        "text": null
       },
       {
        "level": 6,
-       "winners": 8136,
+       "winners": 14075,
        "prize": 10,
        "text": null
       },
       {
        "level": 7,
-       "winners": 6445,
+       "winners": 9507,
        "prize": 10,
        "text": null
       },
       {
        "level": 8,
-       "winners": 24441,
+       "winners": 33449,
        "prize": 5,
        "text": null
       },
       {
        "level": 9,
-       "winners": 28474,
+       "winners": 37940,
        "prize": 3,
        "text": null
       }
      ],
      "raffles": []
-    }
+    },
+    "rolled": false
    },
    "picks": {
-    "drawDate": "2026-11-25",
+    "drawDate": "2026-11-27",
     "lines": [
      {
       "key": "top",
@@ -578,13 +578,13 @@
       "about": "Balanced line built to fit how winning lines usually look, with numbers other players tend to avoid.",
       "main": [
        1,
-       17,
-       20,
+       12,
+       15,
        34,
-       39
+       35
       ],
       "extra": [
-       14
+       1
       ],
       "strength": 99,
       "tags": [
@@ -600,21 +600,21 @@
       "label": "Hot run",
       "about": "Leans on the numbers drawn most often in recent draws.",
       "main": [
-       5,
-       10,
-       13,
-       36,
-       38
+       6,
+       15,
+       27,
+       28,
+       39
       ],
       "extra": [
-       10
+       13
       ],
-      "strength": 98,
+      "strength": 86,
       "tags": [
        "Sum in the middle band",
-       "2 odd, 3 even",
+       "3 odd, 2 even",
        "High/low balanced",
-       "Fewer birthday numbers, less jackpot sharing"
+       "Spread across the range"
       ],
       "top": false
      },
@@ -623,27 +623,27 @@
       "label": "Due a turn",
       "about": "Leans on numbers that have gone longest without being drawn.",
       "main": [
-       3,
+       5,
        16,
        17,
-       23,
-       36
+       33,
+       34
       ],
       "extra": [
-       4
+       6
       ],
-      "strength": 94,
+      "strength": 93,
       "tags": [
        "Sum in the middle band",
        "3 odd, 2 even",
        "High/low balanced",
-       "Spread across the range"
+       "Fewer birthday numbers, less jackpot sharing"
       ],
       "top": false
      }
     ],
-    "basedOn": "2026-11-24",
-    "createdAt": "2026-11-24T22:58:47.802Z"
+    "basedOn": "2026-11-25",
+    "createdAt": "2026-11-25T22:25:14.317Z"
    },
    "lastPicksResult": [
     {
@@ -670,12 +670,12 @@
     "verdict": "normal",
     "jackpot": 500000,
     "baseJackpot": 500000,
-    "linesEstimate": 824843,
+    "linesEstimate": 1099057,
     "linesMeasured": true,
     "fixedPrizes": true
    },
-   "historyCount": 4014,
-   "eraDraws": 3050
+   "historyCount": 4015,
+   "eraDraws": 3051
   },
   "setforlife": {
    "next": {
