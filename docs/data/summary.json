@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T22:14:14.563Z",
+ "generatedAt": "2026-11-27T21:54:15.328Z",
  "games": {
   "lotto": {
    "next": {
@@ -234,32 +234,32 @@
   },
   "euromillions": {
    "next": {
-    "date": "2026-11-27",
-    "jackpot": 49000000,
+    "date": "2026-12-01",
+    "jackpot": 56000000,
     "jackpotText": null,
     "rollovers": 0,
     "mustBeWon": false
    },
    "latest": {
-    "date": "2026-11-24",
+    "date": "2026-11-27",
     "sets": [
      {
       "m": [
-       3,
-       5,
-       37,
-       44,
-       49
+       12,
+       17,
+       26,
+       34,
+       38
       ],
       "x": [
        5,
-       6
+       9
       ]
      }
     ],
-    "jp": 39445843,
+    "jp": 49972473,
     "rolled": false,
-    "no": 2001,
+    "no": 2002,
     "breakdown": {
      "confirmed": true,
      "tiers": [
@@ -272,111 +272,111 @@
       },
       {
        "level": 2,
-       "winners": 1,
-       "ukWinners": 1,
-       "prize": 359023.3,
+       "winners": 6,
+       "ukWinners": 4,
+       "prize": 80948.4,
        "text": null
       },
       {
        "level": 3,
-       "winners": 0,
-       "ukWinners": 0,
-       "prize": null,
+       "winners": 9,
+       "ukWinners": 4,
+       "prize": 12612.6,
        "text": null
       },
       {
        "level": 4,
-       "winners": 10,
-       "ukWinners": 2,
-       "prize": 11004.5,
+       "winners": 80,
+       "ukWinners": 28,
+       "prize": 441.9,
        "text": null
       },
       {
        "level": 5,
-       "winners": 445,
-       "ukWinners": 129,
-       "prize": 108.1,
+       "winners": 975,
+       "ukWinners": 272,
+       "prize": 66.8,
        "text": null
       },
       {
        "level": 6,
-       "winners": 938,
-       "ukWinners": 245,
-       "prize": 54.2,
+       "winners": 2490,
+       "ukWinners": 709,
+       "prize": 27.6,
        "text": null
       },
       {
        "level": 7,
-       "winners": 950,
-       "ukWinners": 300,
-       "prize": 37.6,
+       "winners": 1913,
+       "ukWinners": 543,
+       "prize": 25.2,
        "text": null
       },
       {
        "level": 8,
-       "winners": 15494,
-       "ukWinners": 4031,
-       "prize": 11.5,
+       "winners": 31275,
+       "ukWinners": 8360,
+       "prize": 7.7,
        "text": null
       },
       {
        "level": 9,
-       "winners": 22109,
-       "ukWinners": 5623,
-       "prize": 9,
+       "winners": 37953,
+       "ukWinners": 10299,
+       "prize": 7.1,
        "text": null
       },
       {
        "level": 10,
-       "winners": 46120,
-       "ukWinners": 12407,
-       "prize": 8,
+       "winners": 76349,
+       "ukWinners": 21392,
+       "prize": 6.5,
        "text": null
       },
       {
        "level": 11,
-       "winners": 87334,
-       "ukWinners": 22653,
-       "prize": 5.1,
+       "winners": 155471,
+       "ukWinners": 40608,
+       "prize": 3.9,
        "text": null
       },
       {
        "level": 12,
-       "winners": 350188,
-       "ukWinners": 88392,
-       "prize": 4,
+       "winners": 513066,
+       "ukWinners": 135784,
+       "prize": 3.7,
        "text": null
       },
       {
        "level": 13,
-       "winners": 716665,
-       "ukWinners": 191502,
-       "prize": 3.1,
+       "winners": 1052671,
+       "ukWinners": 286086,
+       "prize": 2.9,
        "text": null
       }
      ],
      "raffles": [
-      "ZCVP34153"
+      "XDQW90564"
      ]
     }
    },
    "picks": {
-    "drawDate": "2026-11-27",
+    "drawDate": "2026-12-01",
     "lines": [
      {
       "key": "top",
       "label": "Top pick",
       "about": "Balanced line built to fit how winning lines usually look, with numbers other players tend to avoid.",
       "main": [
-       6,
        7,
-       30,
+       12,
        39,
-       49
+       44,
+       45
       ],
       "extra": [
        4,
-       8
+       11
       ],
       "strength": 99,
       "tags": [
@@ -392,22 +392,22 @@
       "label": "Hot run",
       "about": "Leans on the numbers drawn most often in recent draws.",
       "main": [
-       12,
-       14,
-       35,
+       3,
+       16,
+       28,
        37,
-       48
+       49
       ],
       "extra": [
-       7,
+       10,
        11
       ],
-      "strength": 85,
+      "strength": 99,
       "tags": [
        "Sum in the middle band",
-       "2 odd, 3 even",
+       "3 odd, 2 even",
        "High/low balanced",
-       "Fewer birthday numbers, less jackpot sharing"
+       "Spread across the range"
       ],
       "top": false
      },
@@ -416,40 +416,34 @@
       "label": "Due a turn",
       "about": "Leans on numbers that have gone longest without being drawn.",
       "main": [
-       10,
-       19,
-       34,
+       2,
+       4,
+       29,
        43,
        50
       ],
       "extra": [
-       2,
-       3
+       3,
+       5
       ],
-      "strength": 65,
+      "strength": 86,
       "tags": [
+       "Sum in the middle band",
        "2 odd, 3 even",
        "High/low balanced",
-       "Spread across the range",
        "Fewer birthday numbers, less jackpot sharing"
       ],
       "top": false
      }
     ],
-    "basedOn": "2026-11-24",
-    "createdAt": "2026-11-24T22:58:47.802Z"
+    "basedOn": "2026-11-27",
+    "createdAt": "2026-11-27T21:54:15.328Z"
    },
    "lastPicksResult": [
     {
      "key": "top",
-     "total": 4,
-     "wins": [
-      {
-       "round": 0,
-       "tier": "2 + 1 Star",
-       "amount": 4
-      }
-     ]
+     "total": 0,
+     "wins": []
     },
     {
      "key": "hot",
@@ -458,134 +452,128 @@
     },
     {
      "key": "due",
-     "total": 3.1,
-     "wins": [
-      {
-       "round": 0,
-       "tier": "Match 2",
-       "amount": 3.1
-      }
-     ]
+     "total": 0,
+     "wins": []
     }
    ],
    "value": {
-    "perLine": 0.9063070994755843,
-    "perPound": 0.3625228397902337,
-    "basePerPound": 0.2963811382978278,
-    "ratio": 1.2231643412677002,
+    "perLine": 0.8652111276136577,
+    "perPound": 0.3460844510454631,
+    "basePerPound": 0.26521891123783164,
+    "ratio": 1.3049011076556163,
     "verdict": "better",
-    "jackpot": 49000000,
-    "baseJackpot": 24555324,
-    "linesEstimate": 15694482,
+    "jackpot": 56000000,
+    "baseJackpot": 25335564,
+    "linesEstimate": 23052788,
     "linesMeasured": true,
     "fixedPrizes": false
    },
-   "historyCount": 2001,
-   "eraDraws": 1061
+   "historyCount": 2002,
+   "eraDraws": 1062
   },
   "thunderball": {
    "next": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "jackpot": 500000,
     "jackpotText": null,
     "rollovers": 0,
     "mustBeWon": false
    },
    "latest": {
-    "date": "2026-11-25",
-    "no": 4015,
+    "date": "2026-11-27",
     "sets": [
      {
       "m": [
-       5,
-       7,
-       10,
-       12,
-       19
+       1,
+       6,
+       16,
+       17,
+       39
       ],
       "x": [
-       3
+       7
       ]
      }
     ],
+    "rolled": false,
+    "no": 4016,
     "breakdown": {
      "confirmed": true,
      "tiers": [
       {
        "level": 1,
-       "winners": 0,
-       "prize": null,
+       "winners": 1,
+       "prize": 500000,
        "text": null
       },
       {
        "level": 2,
-       "winners": 4,
+       "winners": 1,
        "prize": 5000,
        "text": null
       },
       {
        "level": 3,
-       "winners": 37,
+       "winners": 30,
        "prize": 250,
        "text": null
       },
       {
        "level": 4,
-       "winners": 513,
+       "winners": 342,
        "prize": 100,
        "text": null
       },
       {
        "level": 5,
-       "winners": 1031,
+       "winners": 829,
        "prize": 20,
        "text": null
       },
       {
        "level": 6,
-       "winners": 14075,
+       "winners": 9943,
        "prize": 10,
        "text": null
       },
       {
        "level": 7,
-       "winners": 9507,
+       "winners": 9841,
        "prize": 10,
        "text": null
       },
       {
        "level": 8,
-       "winners": 33449,
+       "winners": 40316,
        "prize": 5,
        "text": null
       },
       {
        "level": 9,
-       "winners": 37940,
+       "winners": 49770,
        "prize": 3,
        "text": null
       }
      ],
      "raffles": []
-    },
-    "rolled": false
+    }
    },
    "picks": {
-    "drawDate": "2026-11-27",
+    "drawDate": "2026-11-28",
     "lines": [
      {
       "key": "top",
       "label": "Top pick",
       "about": "Balanced line built to fit how winning lines usually look, with numbers other players tend to avoid.",
       "main": [
-       1,
-       12,
+       4,
+       5,
        15,
-       34,
-       35
+       36,
+       39
       ],
       "extra": [
-       1
+       2
       ],
       "strength": 99,
       "tags": [
@@ -601,21 +589,20 @@
       "label": "Hot run",
       "about": "Leans on the numbers drawn most often in recent draws.",
       "main": [
-       6,
+       9,
        15,
-       27,
-       28,
-       39
+       19,
+       33,
+       35
       ],
       "extra": [
        13
       ],
-      "strength": 86,
+      "strength": 79,
       "tags": [
        "Sum in the middle band",
-       "3 odd, 2 even",
        "High/low balanced",
-       "Spread across the range"
+       "Fewer birthday numbers, less jackpot sharing"
       ],
       "top": false
      },
@@ -624,16 +611,16 @@
       "label": "Due a turn",
       "about": "Leans on numbers that have gone longest without being drawn.",
       "main": [
-       5,
-       16,
-       17,
+       3,
+       8,
+       29,
        33,
        34
       ],
       "extra": [
-       6
+       9
       ],
-      "strength": 93,
+      "strength": 97,
       "tags": [
        "Sum in the middle band",
        "3 odd, 2 even",
@@ -643,8 +630,8 @@
       "top": false
      }
     ],
-    "basedOn": "2026-11-25",
-    "createdAt": "2026-11-25T22:25:14.317Z"
+    "basedOn": "2026-11-27",
+    "createdAt": "2026-11-27T21:54:15.328Z"
    },
    "lastPicksResult": [
     {
@@ -671,12 +658,12 @@
     "verdict": "normal",
     "jackpot": 500000,
     "baseJackpot": 500000,
-    "linesEstimate": 1099057,
+    "linesEstimate": 1441751,
     "linesMeasured": true,
     "fixedPrizes": true
    },
-   "historyCount": 4015,
-   "eraDraws": 3051
+   "historyCount": 4016,
+   "eraDraws": 3052
   },
   "setforlife": {
    "next": {
